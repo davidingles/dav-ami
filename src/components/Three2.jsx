@@ -13,7 +13,7 @@ const Models = [
   // { title: 'jamoneroMacondo2', url: './gltf/jamoneroMacondo2.glb' },
   // { title: 'jamoneroMacondo2', url: './gltf/jamoneroMacondo2.glb' },
   // { title: 'AMI2', url: './ami.glb' },
-  { title: 'AMI', url: './ami1.glb' },
+  { title: 'AMI', url: './ami2.glb' },
 ]
 
 function Model({ url }) {
