@@ -12,7 +12,8 @@ const Models = [
   // { title: 'CajaSeparador', url: './gltf/CajaSeparador.glb' },
   // { title: 'jamoneroMacondo2', url: './gltf/jamoneroMacondo2.glb' },
   // { title: 'jamoneroMacondo2', url: './gltf/jamoneroMacondo2.glb' },
-  { title: 'AMI', url: './ami.glb' },
+  // { title: 'AMI2', url: './ami.glb' },
+  { title: 'AMI', url: './ami1.glb' },
 ]
 
 function Model({ url }) {
@@ -29,10 +30,10 @@ function Model({ url }) {
     // group.current.rotation.y = THREE.MathUtils.lerp(group.current.rotation.y, Math.sin(t / 8) / 10, 0.1)
     // group.current.rotation.z = THREE.MathUtils.lerp(group.current.rotation.z, Math.sin(t / 8) / 20, 0.1)
     group.current.position.y = -.3
-    group.current.position.y = THREE.MathUtils.lerp(group.current.position.y, (-2 + Math.sin(t)) / 90, 0.6)
+    group.current.position.y = THREE.MathUtils.lerp(group.current.position.y, (-3 + Math.sin(t)) / 40, .6)
   })
   return (
-    <group ref={group} dispose={null} position={[0, 2, 0]} scale={.3}>
+    <group ref={group} dispose={null} position={[0, 2, 0]} scale={.4}>
       <Clone object={scene} castShadow receiveShadow />
     </group>
   )

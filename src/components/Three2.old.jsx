@@ -5,14 +5,14 @@ import { Stats, OrbitControls, Environment, useGLTF, Clone, Html, ContactShadows
 import { useControls } from 'leva'
 
 const Models = [
-  { title: 'Hammer', url: './models/hammer.glb' },
-  { title: 'cajaSeparadorRemesh', url: './gltf/cajaSeparadorRemesh.glb' },
-  { title: 'cajaSeparadorRemesh2', url: './gltf/cajaSeparadorRemesh2.glb' },
-  { title: 'troquel4e0067_glb', url: './gltf/troquel4e0067_glb.glb' },
-  { title: 'CajaSeparador', url: './gltf/CajaSeparador.glb' },
-  { title: 'jamoneroMacondo2', url: './gltf/jamoneroMacondo2.glb' },
-  { title: 'jamoneroMacondo2', url: './gltf/jamoneroMacondo2.glb' },
-  { title: 'AMI', url: './ami.glb' },
+  // { title: 'Hammer', url: './models/hammer.glb' },
+  // { title: 'cajaSeparadorRemesh', url: './gltf/cajaSeparadorRemesh.glb' },
+  // { title: 'cajaSeparadorRemesh2', url: './gltf/cajaSeparadorRemesh2.glb' },
+  // { title: 'troquel4e0067_glb', url: './gltf/troquel4e0067_glb.glb' },
+  // { title: 'CajaSeparador', url: './gltf/CajaSeparador.glb' },
+  // { title: 'jamoneroMacondo2', url: './gltf/jamoneroMacondo2.glb' },
+  // { title: 'jamoneroMacondo2', url: './gltf/jamoneroMacondo2.glb' },
+  { title: 'AMI', url: './ami1.glb' },
 ]
 
 function Model({ url }) {
